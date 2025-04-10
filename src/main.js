@@ -1,7 +1,7 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.136';
 
 
-class RotatingPlanet {
+class RayMarching {
   constructor() {
   }
 
@@ -87,6 +87,6 @@ class RotatingPlanet {
 let APP_ = null;
 
 window.addEventListener('DOMContentLoaded', async () => {
-  APP_ = new RotatingPlanet();
+  APP_ = new RayMarching();
   await APP_.initialize();
 });
