@@ -3,7 +3,7 @@ Basic scene of procedurally generated terrain constructed using Ray Marching.
 
 ![Terrain.jpeg](https://github.com/Satoniou/Ray-Marching/blob/main/Images/Terrain.jpeg)
 
-This project is based on SimonDev's course [GLSL Shaders from Scratch](https://simondev.teachable.com/courses/).
+This project is based on SimonDev's course [GLSL Shaders from Scratch](https://simondev.teachable.com/courses/). The code referenced is located in the `fragment-shader.glsl` file.
 
 Sphere Tracing was used to render the geometry. The shadow uses almost the same algorithm as the main `RayMarch()` loop, but reduced to a `float` factor.
 
